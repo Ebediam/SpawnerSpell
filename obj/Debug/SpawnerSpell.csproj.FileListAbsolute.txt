@@ -1,0 +1,121 @@
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\ExplosiveItemV3.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\ItemShooterV2.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Sirenix.OdinInspector.Attributes.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Sirenix.OdinInspector.CompatibilityLayer.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Sirenix.Serialization.Config.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Sirenix.Serialization.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Sirenix.Utilities.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.AudioModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.CoreModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UI.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\PowerBooks.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Unity.Postprocessing.Runtime.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.WindModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UMA_Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\SteamVR.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Newtonsoft.Json.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\SteamVR_Actions.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.VRModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UIModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.AIModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.SpatialTracking.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Oculus.VR.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.XRModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.GridModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.LocalizationModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.StreamingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.StyleSheetsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.VFXModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UNETModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ClothModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.InputModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.TextCoreModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.VideoModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ARModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\Valve.Newtonsoft.Json.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\ExplosiveItemV3.pdb
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\ItemShooterV2.pdb
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\obj\Debug\SpawnerSpell.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\obj\Debug\SpawnerSpell.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\obj\Debug\SpawnerSpell.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\SpawnerSpellV2.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\bin\Debug\SpawnerSpellV2.pdb
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\obj\Debug\SpawnerSpellV2.dll
+C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery\BasSDK-master\Plugins\SpawnerSpell\obj\Debug\SpawnerSpellV2.pdb
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\SpawnerSpellV2_1.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\SpawnerSpellV2_1.pdb
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UI.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\PowerBooks.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Unity.Postprocessing.Runtime.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.WindModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\SteamVR.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Newtonsoft.Json.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\SteamVR_Actions.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.VRModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UIModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.AIModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Oculus.VR.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.XRModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.DirectorModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.VFXModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ClothModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.ARModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Valve.Newtonsoft.Json.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Debug\SpawnerSpell.csprojAssemblyReference.cache
+D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Debug\SpawnerSpell.csproj.CoreCompileInputs.cache
+D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Debug\SpawnerSpell.csproj.CopyComplete
+D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Debug\SpawnerSpellV2_1.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Debug\SpawnerSpellV2_1.pdb
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Assembly-CSharp.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Unity.Timeline.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\UnityEngine.InputLegacyModule.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Unity.RenderPipelines.Lightweight.Runtime.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Debug\Unity.RenderPipelines.Core.Runtime.dll
