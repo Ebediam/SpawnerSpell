@@ -25,6 +25,11 @@ namespace SpawnerSpell
         public static ItemSpawnerSpell leftSpell;
         public static ItemSpawnerSpell rightSpell;
 
+        public static ItemData leftItemData;
+        public static ItemData rightItemData;
+        public static ItemData leftThrowItemData;
+        public static ItemData rightThrowItemData;
+
 
         public AudioSource spellSFX;
         public AudioSource bindSFX;
@@ -67,6 +72,7 @@ namespace SpawnerSpell
                     }
 
                     leftSpell = this;
+
 
                     break;
 
@@ -211,11 +217,51 @@ namespace SpawnerSpell
                 case Side.Left:
                     summonData = Catalog.current.GetData<ItemData>(module.leftItemID, true);
                     throwSummonData = Catalog.current.GetData<ItemData>(module.leftThrowItemID, true);
+
+                    if(leftItemData == null)
+                    {
+                        leftItemData = summonData;
+                    }
+                    else
+                    {
+                        summonData = leftItemData;
+                    }
+
+                    if(leftThrowItemData == null)
+                    {
+                        leftThrowItemData = throwSummonData;
+                    }
+                    else
+                    {
+                        throwSummonData = leftThrowItemData;
+                    }
+
                     break;
 
                 default:
                     summonData = Catalog.current.GetData<ItemData>(module.rightItemID, true);
                     throwSummonData = Catalog.current.GetData<ItemData>(module.rightThrowItemID, true);
+
+                    if (rightItemData == null)
+                    {
+                        rightItemData = summonData;
+                    }
+                    else
+                    {
+                        summonData = rightItemData;
+                    }
+
+                    if (rightThrowItemData == null)
+                    {
+                        rightThrowItemData = throwSummonData;
+                    }
+                    else
+                    {
+                        throwSummonData = rightThrowItemData;
+                    }
+
+
+
                     break;
 
             }
@@ -258,6 +304,19 @@ namespace SpawnerSpell
                     }
 
                     summonData = interactor.grabbedHandle.item.data;
+
+                    switch (interactor.side)
+                    {
+                        case Side.Left:
+                            leftItemData = summonData;
+                            break;
+
+                        default:
+                            rightItemData = summonData;
+                            break;
+                    }
+
+                    
 
                     if (bindSFX)
                     {
@@ -312,6 +371,19 @@ namespace SpawnerSpell
                     }
 
                     throwSummonData = interactor.grabbedHandle.item.data;
+
+                    switch (interactor.side)
+                    {
+                        case Side.Left:
+
+                            leftThrowItemData = throwSummonData;
+                            break;
+
+                        default:
+                            rightThrowItemData = throwSummonData;
+                            break;
+                    }
+
 
                     if (bindSFX)
                     {
