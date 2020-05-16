@@ -206,11 +206,6 @@ namespace SpawnerSpell
 
         public void Initialize()
         {
-            spellSFX = transform.Find("SpellSFX").GetComponent<AudioSource>();
-            bindSFX = transform.Find("BindSFX").GetComponent<AudioSource>();
-
-            spellVFX = transform.Find("SpellVFX").GetComponent<ParticleSystem>();
-            bindVFX = transform.Find("BindVFX").GetComponent<ParticleSystem>();
 
             switch (interactor.side)
             {
@@ -218,23 +213,27 @@ namespace SpawnerSpell
                     summonData = Catalog.current.GetData<ItemData>(module.leftItemID, true);
                     throwSummonData = Catalog.current.GetData<ItemData>(module.leftThrowItemID, true);
 
-                    if(leftItemData == null)
+                    if (module.readWriteGlobal)
                     {
-                        leftItemData = summonData;
-                    }
-                    else
-                    {
-                        summonData = leftItemData;
-                    }
+                        if (leftItemData == null)
+                        {
+                            leftItemData = summonData;
+                        }
+                        else
+                        {
+                            summonData = leftItemData;
+                        }
 
-                    if(leftThrowItemData == null)
-                    {
-                        leftThrowItemData = throwSummonData;
+                        if (leftThrowItemData == null)
+                        {
+                            leftThrowItemData = throwSummonData;
+                        }
+                        else
+                        {
+                            throwSummonData = leftThrowItemData;
+                        }
                     }
-                    else
-                    {
-                        throwSummonData = leftThrowItemData;
-                    }
+                    
 
                     break;
 
@@ -242,23 +241,27 @@ namespace SpawnerSpell
                     summonData = Catalog.current.GetData<ItemData>(module.rightItemID, true);
                     throwSummonData = Catalog.current.GetData<ItemData>(module.rightThrowItemID, true);
 
-                    if (rightItemData == null)
+                    if (module.readWriteGlobal)
                     {
-                        rightItemData = summonData;
-                    }
-                    else
-                    {
-                        summonData = rightItemData;
-                    }
+                        if (rightItemData == null)
+                        {
+                            rightItemData = summonData;
+                        }
+                        else
+                        {
+                            summonData = rightItemData;
+                        }
 
-                    if (rightThrowItemData == null)
-                    {
-                        rightThrowItemData = throwSummonData;
+                        if (rightThrowItemData == null)
+                        {
+                            rightThrowItemData = throwSummonData;
+                        }
+                        else
+                        {
+                            throwSummonData = rightThrowItemData;
+                        }
                     }
-                    else
-                    {
-                        throwSummonData = rightThrowItemData;
-                    }
+                   
 
 
 
@@ -279,6 +282,17 @@ namespace SpawnerSpell
             }
 
             Debug.Log("ThrowSummonData loaded: " + throwSummonData.displayName);
+
+            if (module.hasEffects)
+            {                
+                spellSFX = transform.Find("SpellSFX").GetComponent<AudioSource>();
+                spellVFX = transform.Find("SpellVFX").GetComponent<ParticleSystem>();
+                bindSFX = transform.Find("BindSFX").GetComponent<AudioSource>();
+                bindVFX = transform.Find("BindVFX").GetComponent<ParticleSystem>();
+            }
+
+
+
 
         }
 
@@ -305,16 +319,21 @@ namespace SpawnerSpell
 
                     summonData = interactor.grabbedHandle.item.data;
 
-                    switch (interactor.side)
+                    if (module.readWriteGlobal)
                     {
-                        case Side.Left:
-                            leftItemData = summonData;
-                            break;
+                        switch (interactor.side)
+                        {
+                            case Side.Left:
+                                leftItemData = summonData;
+                                break;
 
-                        default:
-                            rightItemData = summonData;
-                            break;
+                            default:
+                                rightItemData = summonData;
+                                break;
+                        }
                     }
+
+   
 
                     
 
@@ -372,17 +391,21 @@ namespace SpawnerSpell
 
                     throwSummonData = interactor.grabbedHandle.item.data;
 
-                    switch (interactor.side)
+                    if (module.readWriteGlobal)
                     {
-                        case Side.Left:
+                        switch (interactor.side)
+                        {
+                            case Side.Left:
 
-                            leftThrowItemData = throwSummonData;
-                            break;
+                                leftThrowItemData = throwSummonData;
+                                break;
 
-                        default:
-                            rightThrowItemData = throwSummonData;
-                            break;
+                            default:
+                                rightThrowItemData = throwSummonData;
+                                break;
+                        }
                     }
+
 
 
                     if (bindSFX)
@@ -454,20 +477,40 @@ namespace SpawnerSpell
 
         public void SummonAndThrow()
         {
+            Debug.Log("----------SUMMON AND THROW STARTS---------------");
+
             Item item = throwSummonData.Spawn(false);
 
+            Debug.Log("Item spawned");
             item.gameObject.SetActive(true);
 
-            item.IgnoreRagdollCollision(Creature.player.ragdoll);
+            if(item.definition.colliderGroups.Count != 0)
+            {
 
-            item.IgnoreObjectCollision(interactor.playerHand.itemHand.item);
+                item.IgnoreRagdollCollision(Creature.player.ragdoll);
+
+                item.IgnoreObjectCollision(interactor.playerHand.itemHand.item);
+
+            }
+            else
+            {
+                Debug.Log("No collider group found");
+            }
+
+            Debug.Log("Collision ignoring set up");
+
+
 
             item.transform.rotation = transform.rotation;
             item.transform.position = transform.position;
 
+            Debug.Log("item aligned");
+
             item.Throw(1, Item.FlyDetection.Forced);
             item.rb.AddForce(item.transform.forward * module.throwSpeed, ForceMode.VelocityChange);
-            
+
+            Debug.Log("Item thrown");
+
             if(module.timeToDespawnThrownItem != 0)
             {
                 //item.Despawn(module.timeToDespawnThrownItem);
@@ -475,11 +518,11 @@ namespace SpawnerSpell
                 
                 
             }
-
+            Debug.Log("-----------END OF SUMMON AND THROW------------");
 
         }
 
-        IEnumerator Deactivate(Item item, float time)
+        public IEnumerator Deactivate(Item item, float time)
         {
 
             yield return new WaitForSeconds(time);

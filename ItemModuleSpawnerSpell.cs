@@ -19,6 +19,8 @@ namespace SpawnerSpell
         public bool canSummon = true;
         public bool canThrowSummon = true;
 
+        public bool hasEffects = false;
+        public bool readWriteGlobal = false;
 
         public override void OnItemLoaded(Item item)
         {

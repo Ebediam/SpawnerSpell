@@ -72,7 +72,7 @@ D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\Sirenix.Utilities.dll
 D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\UnityEngine.TerrainModule.dll
 D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\UnityEngine.TerrainPhysicsModule.dll
 D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\UnityEngine.PhysicsModule.dll
-D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\SpawnerSpell_V4_1.dll
-D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\SpawnerSpell_V4_1.pdb
-D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Release\SpawnerSpell_V4_1.dll
-D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Release\SpawnerSpell_V4_1.pdb
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\SpawnerSpell_V4_3.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\bin\Release\SpawnerSpell_V4_3.pdb
+D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Release\SpawnerSpell_V4_3.dll
+D:\General\B&S MOds\Plugins\SpawnerSpell\obj\Release\SpawnerSpell_V4_3.pdb
